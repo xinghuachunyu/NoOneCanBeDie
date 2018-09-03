@@ -1,0 +1,60 @@
+#box{
+	width: :753px;
+	height: 583px;
+	border: 1px solid gray;
+	position: relative;
+	margin: 0 auto;
+}
+#box #title{
+	position: absolute;
+	left: 35%;
+	top: 0;
+}
+#box #title img,#box #title span{
+	display: block;
+}
+#box #title img{
+	left:35%;
+}
+#box #title span{
+	font-size: 40px;
+	position: absolute;
+	left: 40%;
+	margin-left: -50px;
+	top: 60px;
+}
+#box #menu{
+	position: absolute;
+	list-style: none;
+	left: 45%;
+	top: 200px;
+
+}
+#box #menu span
+{
+	width: 150px;
+	height: 60px;
+	display: block;
+
+}
+#box #menu span a{
+	height: 60px;
+	width: 150px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+	margin: 10 20;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	border-radius: 14px;
+}
+#box #menu span a:hover{
+
+	background-color: red;
+}
+#box #bottom{
+	position: absolute;
+	bottom: 30px;
+	left: 35%;
+}

@@ -1,0 +1,74 @@
+/*
+* @Author: name
+* @Date:   2018-07-16 14:46:35
+* @Last Modified by:   name
+* @Last Modified time: 2018-07-16 16:37:08
+*/
+@keyframes run {
+      0%{
+        background: url("../img/run2.jpg");
+      }
+      100%{
+        background: url("../img/run3.png");
+      }
+    }
+#box{
+    height: 900px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    cursor:url("../img/point.png"),auto;
+}
+#box #first,#box #second,#box #third,#box #forth{
+    height: 200px;
+    border-bottom: 5px solid #808080;
+    position: relative;
+
+}
+#people1,#people2,#people3,#people4{
+ position: absolute;
+ width:40px;
+ height:50px;
+ left:0;
+ bottom: 0px;
+}
+#first img,#second img,#third img,#forth img{
+ position: absolute;
+  right:0;
+  bottom:0;
+}
+#people1
+{
+     width:28px;
+        height:36px;
+        position:absolute;
+        animation: run 0.3s linear infinite;
+        animation-direction: alternate;
+        bottom:0;
+}
+#people2
+{
+     width:28px;
+        height:36px;
+        position:absolute;
+        animation: run 0.3s linear infinite;
+        animation-direction: alternate;
+       bottom:0;
+}
+#people3
+{
+     width:28px;
+        height:36px;
+        position:absolute;
+        animation: run 0.3s linear infinite;
+        animation-direction: alternate;
+       bottom:0;
+}
+#people4
+{
+     width:28px;
+        height:36px;
+        position:absolute;
+        animation: run 0.3s linear infinite;
+        animation-direction: alternate;
+       bottom:0;
+}
